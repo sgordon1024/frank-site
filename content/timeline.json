@@ -1,0 +1,109 @@
+[
+  {
+    "id": "born",
+    "date": "2026-07-10",
+    "type": "first",
+    "title": "Born",
+    "notes": "Frank arrives in the world, one of Ducky's litter. Orange, opinionated, roughly the size of a russet potato.",
+    "status": "done"
+  },
+  {
+    "id": "fixbend-visit",
+    "date": "2026-08-22",
+    "type": "vet",
+    "title": "FIXbend clinic visit",
+    "notes": "First clinic visit, Bend OR. Cost: $0.00.",
+    "status": "done",
+    "location": "Bend"
+  },
+  {
+    "id": "dapp-1",
+    "date": "2026-08-22",
+    "type": "vaccine",
+    "title": "DAPP vaccine, first dose",
+    "notes": "Given at FIXbend. Needs boosters, which FIXbend cannot administer.",
+    "status": "done",
+    "location": "Bend"
+  },
+  {
+    "id": "home",
+    "date": "2026-08-28",
+    "type": "misc",
+    "title": "Home with Steve",
+    "notes": "Came home from Arlo's camp, waving goodbye to mama Ducky. Van life begins. Date per the gotcha-day photos.",
+    "status": "done",
+    "location": "near Mt. Jefferson"
+  },
+  {
+    "id": "crate-win",
+    "date": "2026-09-01",
+    "type": "training",
+    "title": "The crate becomes the den",
+    "notes": "Frank enters the crate voluntarily. Treat tossed in, calm energy, den instinct doing the rest.",
+    "status": "done",
+    "approximate": true
+  },
+  {
+    "id": "potty-streak",
+    "date": "2026-09-05",
+    "type": "first",
+    "title": "Zero daytime accidents",
+    "notes": "The structured crate / awake / potty cycle is working. Overnight stretches now run 3 to 4 hours.",
+    "status": "done",
+    "approximate": true
+  },
+  {
+    "id": "zipper-escape",
+    "date": "2026-09-06",
+    "type": "misc",
+    "title": "The Great Zipper Escape",
+    "notes": "Frank worked out the crate door zipper. A carabiner now stands guard.",
+    "status": "done",
+    "approximate": true
+  },
+  {
+    "id": "dapp-2",
+    "date": "2026-09-11",
+    "type": "vaccine",
+    "title": "DAPP booster #2",
+    "notes": "Given at Sunriver Veterinary Clinic (Dr. Lauren Salgo). The 9-week visit also covered dewormer and Bordetella, per her puppy schedule sheet.",
+    "status": "done",
+    "location": "Sunriver"
+  },
+  {
+    "id": "amy-handoff",
+    "date": "2026-09-22",
+    "type": "trip",
+    "title": "Off to Amy's",
+    "notes": "Care handoff. The care guide PDF and the signed authorization letter travel with him.",
+    "status": "scheduled",
+    "approximate": true
+  },
+  {
+    "id": "dapp-3",
+    "date": "2026-10-02",
+    "type": "vaccine",
+    "title": "12-week visit: DAPP #3 + lepto #1",
+    "notes": "Per Dr. Salgo's puppy schedule: DHPP booster, first leptospirosis dose, dewormer.",
+    "status": "projected",
+    "approximate": true
+  },
+  {
+    "id": "dapp-4",
+    "date": "2026-10-30",
+    "type": "vaccine",
+    "title": "16-week visit: DAPP #4 + lepto #2 + rabies",
+    "notes": "Per Dr. Salgo's puppy schedule: final DHPP, second leptospirosis dose, rabies, dewormer. Completes the puppy series.",
+    "status": "projected",
+    "approximate": true
+  },
+  {
+    "id": "neuter",
+    "date": "2027-01-10",
+    "type": "vet",
+    "title": "Neuter",
+    "notes": "Dr. Salgo's schedule sheet says around 6 months.",
+    "status": "projected",
+    "approximate": true
+  }
+]

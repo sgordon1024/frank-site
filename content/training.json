@@ -1,0 +1,9 @@
+{
+  "framework": "Cesar Millan: exercise, discipline, affection, rest. In that order.",
+  "commands": [
+    { "name": "His name", "cue": "Frank", "status": "learned", "notes": "Reliable. The treat bag works too." },
+    { "name": "Treat", "cue": "treat", "status": "learned", "notes": "Knows exactly what this means." },
+    { "name": "Sit", "cue": "sit", "status": "in-progress", "notes": "Sometimes. Depends on the audience." },
+    { "name": "Back to the van", "cue": "van", "status": "in-progress", "notes": "Sometimes. Means head home." }
+  ]
+}

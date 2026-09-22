@@ -1,0 +1,33 @@
+{
+  "name": "Frank",
+  "nicknames": [
+    "Frankie",
+    "Frankenstein",
+    "Frank and Beans",
+    "Frank the Tank",
+    "Frank Costanza"
+  ],
+  "breed": "Chihuahua mix",
+  "sex": "male",
+  "coat": "orange",
+  "dob": "2026-07-10",
+  "animalId": "26-1568",
+  "microchip": null,
+  "origin": "Born to Ducky, who travels with a nomad named Arlo. Came home to Steve from Arlo's camp.",
+  "family": {
+    "mother": "Ducky",
+    "via": "Arlo"
+  },
+  "home": "A van, somewhere in Oregon",
+  "weights": [
+    {
+      "date": "2026-08-22",
+      "lbs": 3,
+      "approximate": true
+    },
+    {
+      "date": "2026-09-05",
+      "lbs": 4.5
+    }
+  ]
+}
