@@ -23,7 +23,8 @@
     "title": "DAPP vaccine, first dose",
     "notes": "Given at FIXbend. Needs boosters, which FIXbend cannot administer.",
     "status": "done",
-    "location": "Bend"
+    "location": "Bend",
+    "short": "DAPP 1"
   },
   {
     "id": "home",
@@ -68,7 +69,8 @@
     "title": "DAPP booster #2",
     "notes": "Given at Sunriver Veterinary Clinic (Dr. Lauren Salgo). The 9-week visit also covered dewormer and Bordetella, per her puppy schedule sheet.",
     "status": "done",
-    "location": "Sunriver"
+    "location": "Sunriver",
+    "short": "DAPP 2 + Bordetella"
   },
   {
     "id": "amy-handoff",
@@ -86,7 +88,8 @@
     "title": "12-week visit: DAPP #3 + lepto #1",
     "notes": "Per Dr. Salgo's puppy schedule: DHPP booster, first leptospirosis dose, dewormer.",
     "status": "projected",
-    "approximate": true
+    "approximate": true,
+    "short": "DAPP 3 + Lepto 1"
   },
   {
     "id": "dapp-4",
@@ -95,7 +98,8 @@
     "title": "16-week visit: DAPP #4 + lepto #2 + rabies",
     "notes": "Per Dr. Salgo's puppy schedule: final DHPP, second leptospirosis dose, rabies, dewormer. Completes the puppy series.",
     "status": "projected",
-    "approximate": true
+    "approximate": true,
+    "short": "DAPP 4 + Lepto 2 + Rabies"
   },
   {
     "id": "neuter",
