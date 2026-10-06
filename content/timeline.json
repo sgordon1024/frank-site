@@ -92,6 +92,15 @@
     "short": "DAPP 3 + Lepto 1"
   },
   {
+    "id": "dhp-lepto-2026-10-05",
+    "date": "2026-10-05",
+    "type": "vaccine",
+    "title": "DHP + Lepto Vaccine - Series",
+    "notes": "Given at Sunriver Veterinary Clinic. Recorded on the October 5, 2026 receipt, invoice 400820. Series dose number unspecified.",
+    "status": "done",
+    "location": "Sunriver"
+  },
+  {
     "id": "dapp-4",
     "date": "2026-10-30",
     "type": "vaccine",

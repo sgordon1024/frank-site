@@ -69,7 +69,7 @@ function buildCard(visits) {
     <div class="vx-head">
       <div>
         <p class="mono vx-kicker">Vaccine progress</p>
-        <h2 class="vx-title">${done === total ? "Fully vaccinated" : `${done} of ${total} puppy visits done`}</h2>
+        <h2 class="vx-title">${done === total ? "All listed visits recorded" : `${done} of ${total} puppy visits done`}</h2>
       </div>
       <div class="vx-pct" aria-hidden="true">${pct}%</div>
     </div>
@@ -544,7 +544,7 @@ function startSyringe(card, visits) {
       ctx.fillText(`${vis.approx && !tight ? "~" : ""}${fmtDate(vis.date)}`, x, my + 20);
       ctx.font = '400 9.5px "IBM Plex Mono", ui-monospace, monospace';
       ctx.fillStyle = "#8a7562";
-      ctx.fillText(`DOSE ${k}`, x, my + 32);
+      ctx.fillText(`VISIT ${k}`, x, my + 32);
     }
 
     // Finish flag above the last marker
@@ -556,7 +556,7 @@ function startSyringe(card, visits) {
     ctx.stroke();
     ctx.font = '500 9.5px "IBM Plex Mono", ui-monospace, monospace';
     ctx.textAlign = "right";
-    const label = "FULLY VACCINATED";
+    const label = "VISITS RECORDED";
     const tw = ctx.measureText(label).width;
     ctx.fillStyle = p >= 0.999 ? "#52603c" : "#b8501f";
     rr(fx - tw - 10, cy - R - 19, tw + 10, 13, 2);
