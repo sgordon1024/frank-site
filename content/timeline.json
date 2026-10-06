@@ -111,6 +111,16 @@
     "short": "DAPP 4 + Lepto 2 + Rabies"
   },
   {
+    "id": "fecal-test",
+    "date": "2026-10-30",
+    "type": "vet",
+    "title": "Fecal test and deworming follow-up",
+    "notes": "Bring a fresh stool sample to Sunriver Vet. Frank looks a bit lean and a worm showed up after the first dewormer. Over the counter pyrantel only covers roundworms and hookworms, so the test finds the exact worm. Redose is usually every 2 weeks.",
+    "status": "projected",
+    "location": "Sunriver",
+    "approximate": true
+  },
+  {
     "id": "neuter",
     "date": "2027-01-10",
     "type": "vet",
