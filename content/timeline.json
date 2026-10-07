@@ -73,6 +73,15 @@
     "short": "DAPP 2 + Bordetella"
   },
   {
+    "id": "vello-appointment-2026-09-12",
+    "date": "2026-09-12",
+    "type": "vet",
+    "title": "Vello appointment history: Lauren Salgo",
+    "notes": "Vello lists a September 12, 2026 appointment at noon with Lauren Salgo at Sunriver Veterinary Clinic, Bend. Portal reviewed October 7, 2026. This appointment history does not identify which services were administered. The separately recorded September 11 vaccination is retained.",
+    "status": "done",
+    "location": "Bend"
+  },
+  {
     "id": "amy-handoff",
     "date": "2026-09-22",
     "type": "trip",
@@ -99,6 +108,23 @@
     "notes": "Given at Sunriver Veterinary Clinic. Recorded on the October 5, 2026 receipt, invoice 400820. Series dose number unspecified.",
     "status": "done",
     "location": "Sunriver"
+  },
+  {
+    "id": "vello-appointment-2026-10-05",
+    "date": "2026-10-05",
+    "type": "vet",
+    "title": "Vello appointment history: Techs",
+    "notes": "Vello lists an October 5, 2026 appointment at 4:30 p.m. with Techs at Sunriver Veterinary Clinic, Bend. Portal reviewed October 7, 2026. The vaccine entry for this date is supported separately by the clinic receipt.",
+    "status": "done",
+    "location": "Bend"
+  },
+  {
+    "id": "vello-due-dhp-lepto-2026-10-26",
+    "date": "2026-10-26",
+    "type": "vet",
+    "title": "Vello due dates: DHP and Lepto",
+    "notes": "Vello, reviewed October 7, 2026, lists DHP (Distemper Parvo) Vaccine and Lepto Vaccine as up to date, both coming due October 26, 2026. These are service due dates, not booked appointments or administered doses.",
+    "status": "due"
   },
   {
     "id": "dapp-4",
@@ -128,5 +154,13 @@
     "notes": "Dr. Salgo's schedule sheet says around 6 months.",
     "status": "projected",
     "approximate": true
+  },
+  {
+    "id": "vello-due-bordetella-exam-2027-09-12",
+    "date": "2027-09-12",
+    "type": "vet",
+    "title": "Vello due dates: Bordetella and Exam",
+    "notes": "Vello, reviewed October 7, 2026, lists Bordetella Oral 1 year and Exam as up to date, both next due September 12, 2027. These are service due dates, not booked appointments or administered doses.",
+    "status": "due"
   }
 ]
