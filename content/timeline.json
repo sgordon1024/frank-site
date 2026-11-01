@@ -103,10 +103,10 @@
     "id": "vaccine-review-2026-11-01",
     "date": "2026-11-01",
     "type": "vaccine",
-    "title": "Planned vaccine review — administration pending",
-    "short": "Vaccine review (pending)",
-    "notes": "Planned November 1 vaccine review; administration pending visit record. Sunriver recommended DHP, Lepto, and rabies, with an October 30–November 2 booster window (October 27 email). November 2 Sunriver appointment was canceled October 29. The October 26 portal reminder was automated, not an appointment. No rabies administration or later series completion is verified.",
-    "status": "scheduled"
+    "title": "PetVet: rabies + 5 in 1 Leptospirosis",
+    "short": "Rabies + 5 in 1 Leptospirosis",
+    "notes": "November 1 PetVet visit completed with Dr. Laura Humason. Clinical weight 10.0 lb. Rabies – Nobivac Rabies CA (Merck), lot 894551, administered; certificate lists a one-year duration and next vaccination November 1, 2027. Medical record lists 5 in 1 Leptospirosis, one-year duration, next due November 1, 2027; service record identifies NOBIVAC Canine 1-DAPPv+L4. Dose numbers are not specified. These records do not state that the whole puppy series is complete or that exposure restrictions end.",
+    "status": "done"
   },
   {
     "id": "neuter",
@@ -123,6 +123,14 @@
     "type": "vet",
     "title": "Vello due dates: Bordetella and Exam",
     "notes": "Vello, reviewed October 7, 2026, lists Bordetella Oral 1 year and Exam as up to date, both next due September 12, 2027. These are service due dates, not booked appointments or administered doses.",
+    "status": "due"
+  },
+  {
+    "id": "petvet-due-2027-11-01",
+    "date": "2027-11-01",
+    "type": "vet",
+    "title": "PetVet due dates: rabies + 5 in 1 Leptospirosis",
+    "notes": "November 1, 2026 PetVet records list the next rabies vaccination and 5 in 1 Leptospirosis as due November 1, 2027, each with a one-year duration. Due dates, not booked appointments.",
     "status": "due"
   }
 ]

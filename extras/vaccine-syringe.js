@@ -69,12 +69,12 @@ function buildCard(visits) {
     <div class="vx-head">
       <div>
         <p class="mono vx-kicker">Vaccine records</p>
-        <h2 class="vx-title">Recorded history &amp; next review</h2>
+        <h2 class="vx-title">Recorded vaccination history</h2>
       </div>
       <a href="./health.html">Full health history →</a>
     </div>
     <div class="vx-stage"><canvas role="img" aria-label="Syringe illustrating listed vaccine records, not immunity or series completion.${next ? ` Next: ${next.label}, ${next.approx ? "about " : ""}${fmtDate(next.date)}.` : ""}"></canvas></div>
-    <p>Two Sunriver vaccination visits documented; August 22 is reported history. Rabies and later boosters remain unverified.</p>
+    <p>November 1 PetVet vaccinations recorded: rabies and 5 in 1 Leptospirosis. PetVet lists both next due November 1, 2027. August 22 remains reported history; this graphic does not establish whole-series completion.</p>
     <p class="mono vx-hint"><span class="vx-hint-text">Drag the syringe to slosh it.</span></p>
     <ol class="vx-list">
       ${visits
