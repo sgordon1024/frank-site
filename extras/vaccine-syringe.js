@@ -68,18 +68,19 @@ function buildCard(visits) {
   el.innerHTML = `
     <div class="vx-head">
       <div>
-        <p class="mono vx-kicker">Vaccine progress</p>
-        <h2 class="vx-title">${done === total ? "All listed visits recorded" : `${done} of ${total} puppy visits done`}</h2>
+        <p class="mono vx-kicker">Vaccine records</p>
+        <h2 class="vx-title">Recorded history &amp; next review</h2>
       </div>
-      <div class="vx-pct" aria-hidden="true">${pct}%</div>
+      <a href="./health.html">Full health history →</a>
     </div>
-    <div class="vx-stage"><canvas role="img" aria-label="Syringe ${pct} percent full. ${done} of ${total} vaccine visits done.${next ? ` Next: ${next.label}, ${next.approx ? "about " : ""}${fmtDate(next.date)}.` : ""}"></canvas></div>
+    <div class="vx-stage"><canvas role="img" aria-label="Syringe illustrating listed vaccine records, not immunity or series completion.${next ? ` Next: ${next.label}, ${next.approx ? "about " : ""}${fmtDate(next.date)}.` : ""}"></canvas></div>
+    <p>Two Sunriver vaccination visits documented; August 22 is reported history. Rabies and later boosters remain unverified.</p>
     <p class="mono vx-hint"><span class="vx-hint-text">Drag the syringe to slosh it.</span></p>
     <ol class="vx-list">
       ${visits
         .map(
           (v) => `<li class="${v.done ? "done" : "todo"}">
-            <span class="vx-dot ${v.done ? "done" : "todo"}">${v.done ? check : ""}<span class="vx-sr">${v.done ? "Done" : "Upcoming"}</span></span>
+            <span class="vx-dot ${v.done ? "done" : "todo"}">${v.done ? check : ""}<span class="vx-sr">${v.done ? "Recorded" : "Pending"}</span></span>
             <span class="vx-date">${v.approx ? "~" : ""}${fmtDate(v.date)}</span>
             <span><span class="vx-name">${v.label}</span>${v.where ? ` <span class="vx-where">${v.where}</span>` : ""}</span>
           </li>`

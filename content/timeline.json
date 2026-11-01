@@ -20,11 +20,11 @@
     "id": "dapp-1",
     "date": "2026-08-22",
     "type": "vaccine",
-    "title": "DAPP vaccine, first dose",
-    "notes": "Given at FIXbend. Needs boosters, which FIXbend cannot administer.",
+    "title": "DAPP vaccination — reported history",
+    "notes": "August 22 DAPP is reported prior history in the Sunriver medical record generated October 7, 2026; administration is not directly documented by Sunriver. Dose number not confirmed.",
     "status": "done",
     "location": "Bend",
-    "short": "DAPP 1"
+    "short": "DAPP (reported)"
   },
   {
     "id": "home",
@@ -64,22 +64,21 @@
   },
   {
     "id": "dapp-2",
-    "date": "2026-09-11",
+    "date": "2026-09-12",
     "type": "vaccine",
-    "title": "DAPP booster #2",
-    "notes": "Given at Sunriver Veterinary Clinic (Dr. Lauren Salgo). The 9-week visit also covered dewormer and Bordetella, per her puppy schedule sheet.",
+    "title": "DHP series + oral Bordetella",
+    "notes": "Sunriver medical record: healthy puppy exam; DHP series vaccination, oral Bordetella (1-year), and pyrantel dewormer administered. Clinical weight 4.69 lb. No allergies or medications recorded at this exam; current status unverified. Dose numbers unspecified. This corrects the earlier September 11 entry.",
     "status": "done",
     "location": "Sunriver",
-    "short": "DAPP 2 + Bordetella"
+    "short": "DHP + Bordetella"
   },
   {
-    "id": "vello-appointment-2026-09-12",
-    "date": "2026-09-12",
+    "id": "fecal-results-2026-09-18",
+    "date": "2026-09-18",
     "type": "vet",
-    "title": "Vello appointment history: Lauren Salgo",
-    "notes": "Vello lists a September 12, 2026 appointment at noon with Lauren Salgo at Sunriver Veterinary Clinic, Bend. Portal reviewed October 7, 2026. This appointment history does not identify which services were administered. The separately recorded September 11 vaccination is retained.",
-    "status": "done",
-    "location": "Bend"
+    "title": "Fecal results and clinic assessment",
+    "notes": "Sample collected September 17. Roundworm, hookworm, whipworm, flea tapeworm, taeniid tapeworm, Cystoisospora, and Giardia antigens negative. Eimeria oocysts present. In her September 18 assessment, Dr. Salgo advised no treatment was needed and attributed likely exposure to eating rabbit feces. This is the dated clinical assessment, not new advice.",
+    "status": "done"
   },
   {
     "id": "amy-handoff",
@@ -91,60 +90,23 @@
     "approximate": true
   },
   {
-    "id": "dapp-3",
-    "date": "2026-10-02",
-    "type": "vaccine",
-    "title": "12-week visit: DAPP #3 + lepto #1",
-    "notes": "Per Dr. Salgo's puppy schedule: DHPP booster, first leptospirosis dose, dewormer.",
-    "status": "projected",
-    "approximate": true,
-    "short": "DAPP 3 + Lepto 1"
-  },
-  {
     "id": "dhp-lepto-2026-10-05",
     "date": "2026-10-05",
     "type": "vaccine",
     "title": "DHP + Lepto Vaccine - Series",
-    "notes": "Given at Sunriver Veterinary Clinic. Recorded on the October 5, 2026 receipt, invoice 400820. Series dose number unspecified.",
+    "notes": "Sunriver medical record: DHP + Lepto Vaccine - Series administered, Vanguard/Zoetis, batch E308271. Dose number unspecified. Clinical weight 7.0 lb; separate owner report that day was 7.5 lb. Booster advised in four weeks. Nervous in the busy treatment area; did better in a calmer area.",
     "status": "done",
-    "location": "Sunriver"
-  },
-  {
-    "id": "vello-appointment-2026-10-05",
-    "date": "2026-10-05",
-    "type": "vet",
-    "title": "Vello appointment history: Techs",
-    "notes": "Vello lists an October 5, 2026 appointment at 4:30 p.m. with Techs at Sunriver Veterinary Clinic, Bend. Portal reviewed October 7, 2026. The vaccine entry for this date is supported separately by the clinic receipt.",
-    "status": "done",
-    "location": "Bend"
-  },
-  {
-    "id": "vello-due-dhp-lepto-2026-10-26",
-    "date": "2026-10-26",
-    "type": "vet",
-    "title": "Vello due dates: DHP and Lepto",
-    "notes": "Vello, reviewed October 7, 2026, lists DHP (Distemper Parvo) Vaccine and Lepto Vaccine as up to date, both coming due October 26, 2026. These are service due dates, not booked appointments or administered doses.",
-    "status": "due"
-  },
-  {
-    "id": "dapp-4",
-    "date": "2026-10-30",
-    "type": "vaccine",
-    "title": "16-week visit: DAPP #4 + lepto #2 + rabies",
-    "notes": "Per Dr. Salgo's puppy schedule: final DHPP, second leptospirosis dose, rabies, dewormer. Completes the puppy series.",
-    "status": "projected",
-    "approximate": true,
-    "short": "DAPP 4 + Lepto 2 + Rabies"
-  },
-  {
-    "id": "fecal-test",
-    "date": "2026-10-30",
-    "type": "vet",
-    "title": "Fecal test and deworming follow-up",
-    "notes": "Bring a fresh stool sample to Sunriver Vet. Frank looks a bit lean and a worm showed up after the first dewormer. Over the counter pyrantel only covers roundworms and hookworms, so the test finds the exact worm. Redose is usually every 2 weeks.",
-    "status": "projected",
     "location": "Sunriver",
-    "approximate": true
+    "short": "DHP + Lepto"
+  },
+  {
+    "id": "vaccine-review-2026-11-01",
+    "date": "2026-11-01",
+    "type": "vaccine",
+    "title": "Planned vaccine review — administration pending",
+    "short": "Vaccine review (pending)",
+    "notes": "Planned November 1 vaccine review; administration pending visit record. Sunriver recommended DHP, Lepto, and rabies, with an October 30–November 2 booster window (October 27 email). November 2 Sunriver appointment was canceled October 29. The October 26 portal reminder was automated, not an appointment. No rabies administration or later series completion is verified.",
+    "status": "scheduled"
   },
   {
     "id": "neuter",

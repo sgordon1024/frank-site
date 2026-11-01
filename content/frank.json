@@ -31,7 +31,8 @@
     },
     {
       "date": "2026-10-05",
-      "lbs": 7.5
+      "lbs": 7.5,
+      "source": "Owner-reported; clinical record that day: 7.0 lb. See health.html."
     }
   ]
 }
